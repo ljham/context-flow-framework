@@ -20,5 +20,16 @@
     "commands/ideation.md",
     "commands/worktree.md",
     "commands/work.md"
+  ],
+  "author": {
+    "name": "ljham",
+    "url": "https://github.com/ljham"
+  },
+  "repository": "https://github.com/ljham/context-flow-framework",
+  "license": "MIT",
+  "keywords": [
+    "context-optimization",
+    "agents",
+    "workflow"
   ]
 }
