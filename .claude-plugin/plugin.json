@@ -1,0 +1,24 @@
+{
+  "name": "context-flow-framework",
+  "version": "1.3.0",
+  "description": "Framework profesional de optimización de contexto con 11 subagentes especializados para desarrollo con Claude Code. Reduce consumo de tokens 80-90%",
+  "agents": [
+    "agents/backend-developer.md",
+    "agents/frontend-developer.md",
+    "agents/pydantic-ai-architect.md",
+    "agents/shadcn-ui-architect.md",
+    "agents/ui-ux-analyzer.md",
+    "agents/backend-test-engineer.md",
+    "agents/frontend-test-engineer.md",
+    "agents/qa-criteria-validator.md",
+    "agents/requirements-engineer.md",
+    "agents/product-strategist-agent.md",
+    "agents/research-analyst-agent.md"
+  ],
+  "commands": [
+    "commands/discover.md",
+    "commands/ideation.md",
+    "commands/worktree.md",
+    "commands/work.md"
+  ]
+}
