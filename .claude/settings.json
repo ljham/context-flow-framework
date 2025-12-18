@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "defaultMode": "default",
+    "allow": [
+      "Bash(git :*)",
+      "Bash(poetry :*)",
+      "Bash(pytest :*)",
+      "Bash(ruff :*)",
+      "Bash(mypy :*)",
+      "Bash(python :*)",
+      "Bash(ls :*)",
+      "Bash(cat :*)",
+      "Bash(grep :*)",
+      "Bash(find :*)"
+    ]
+  },
+  "model": "claude-sonnet-4-5",
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "echo '✓ Archivo modificado'"
+          }
+        ]
+      }
+    ],
+    "SubagentStop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "pico2wave -l es-ES -w /tmp/tts.wav 'El subagente ha terminado su tarea' && paplay /tmp/tts.wav",
+            "timeout": 120
+          }
+        ]
+      }
+    ]
+  }
+}

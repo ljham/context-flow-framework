@@ -1,0 +1,204 @@
+# ====================================
+# Claude Code Runtime Files
+# ====================================
+# Estos archivos se generan durante el uso del framework y no deben versionarse
+.claude/sessions/
+.claude/research/
+.claude/doc/
+.claude/*.local.md
+.claude/.local.md
+.claude/settings.local.json
+.claude/CLAUDE.local.md
+
+# ====================================
+# Git Worktrees
+# ====================================
+# Cada feature development ocurre en su propio worktree
+.trees/
+
+# ====================================
+# Python
+# ====================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ====================================
+# Virtual Environments
+# ====================================
+.venv/
+venv/
+ENV/
+env/
+.virtualenv/
+
+# ====================================
+# Poetry
+# ====================================
+poetry.lock
+
+# ====================================
+# PyInstaller
+# ====================================
+*.manifest
+*.spec
+
+# ====================================
+# Testing & Coverage
+# ====================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ====================================
+# Type Checkers
+# ====================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.pytype/
+
+# ====================================
+# Linters & Formatters
+# ====================================
+.ruff_cache/
+.pylint.d/
+
+# ====================================
+# Jupyter Notebook
+# ====================================
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# ====================================
+# pyenv
+# ====================================
+.python-version
+
+# ====================================
+# IDEs
+# ====================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.sublime-project
+
+# ====================================
+# OS
+# ====================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# ====================================
+# Logs
+# ====================================
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# ====================================
+# Temporary Files
+# ====================================
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+*~.nib
+
+anexos/
+templates/
+temp.md
+
+# ====================================
+# Config Files with Secrets
+# ====================================
+.env
+.env.local
+.env.*.local
+credentials.json
+secrets.json
+
+# ====================================
+# Documentation Build
+# ====================================
+docs/_build/
+.docusaurus
+site/
+
+# ====================================
+# Database
+# ====================================
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite3-journal
+
+# ====================================
+# Translations
+# ====================================
+*.mo
+*.pot
+
+# ====================================
+# Celery
+# ====================================
+celerybeat-schedule
+celerybeat.pid
+
+# ====================================
+# Node.js (si se usa para tooling)
+# ====================================
+node_modules/
+.npm
+.eslintcache
+.stylelintcache

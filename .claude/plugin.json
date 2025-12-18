@@ -1,0 +1,82 @@
+{
+  "name": "context-optimization-framework",
+  "displayName": "Context Optimization Framework",
+  "version": "1.3.0",
+  "description": "Framework profesional de optimización de contexto con 11 subagentes especializados para desarrollo con Claude Code. Reduce consumo de tokens 80-90%",
+  "author": {
+    "name": "Context Optimization Framework",
+    "email": "luis.jham@gmail.com",
+    "url": "https://github.com/ljham"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ljham/claude-context-framework"
+  },
+  "homepage": "https://github.com/ljham/claude-context-framework#readme",
+  "bugs": {
+    "url": "https://github.com/ljham/claude-context-framework/issues"
+  },
+  "keywords": [
+    "claude-code",
+    "ai-agents",
+    "context-optimization",
+    "subagents",
+    "pydantic-ai",
+    "git-worktrees",
+    "workflow",
+    "automation",
+    "productivity",
+    "code-generation"
+  ],
+  "main": "CLAUDE.md",
+  "agents": [
+    "agents/backend-developer.md",
+    "agents/frontend-developer.md",
+    "agents/pydantic-ai-architect.md",
+    "agents/shadcn-ui-architect.md",
+    "agents/ui-ux-analyzer.md",
+    "agents/backend-test-engineer.md",
+    "agents/frontend-test-engineer.md",
+    "agents/qa-criteria-validator.md",
+    "agents/requirements-engineer.md",
+    "agents/product-strategist-agent.md",
+    "agents/research-analyst-agent.md"
+  ],
+  "commands": [
+    "commands/discover.md",
+    "commands/ideation.md",
+    "commands/worktree.md",
+    "commands/work.md"
+  ],
+  "documentation": [
+    "docs/framework-claude-code.md",
+    "docs/optimizacion-contexto-explicado.md",
+    "docs/diagrama-framework-explicado.md",
+    "docs/git-worktrees-guide.md",
+    "docs/error-handling-strategy.md",
+    "docs/context-engineering-deep-dive.md",
+    "docs/referencias.md"
+  ],
+  "requiredMCPs": {
+    "context7": {
+      "description": "Documentación actualizada de librerías",
+      "optional": false
+    },
+    "playwright-server": {
+      "description": "Automatización de navegador para QA",
+      "optional": true
+    },
+    "memory": {
+      "description": "Grafo de conocimiento para persistencia",
+      "optional": true
+    },
+    "n8n-mcp": {
+      "description": "Integración de workflows n8n",
+      "optional": true
+    }
+  },
+  "engines": {
+    "claude-code": ">=1.0.0"
+  }
+}
