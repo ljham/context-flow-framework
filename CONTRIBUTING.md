@@ -22,7 +22,7 @@ Hay muchas formas de contribuir al proyecto:
 
 ### 1. Reportar Bugs
 
-- Usa [GitHub Issues](https://github.com/ljham/claude-context-framework/issues/new)
+- Usa [GitHub Issues](https://github.com/ljham/context-flow-framework/issues/new)
 - Incluye:
   - Descripción clara del problema
   - Pasos para reproducir
@@ -32,7 +32,7 @@ Hay muchas formas de contribuir al proyecto:
 
 ### 2. Proponer Nuevas Features
 
-- Abre un [GitHub Discussion](https://github.com/ljham/claude-context-framework/discussions) primero
+- Abre un [GitHub Discussion](https://github.com/ljham/context-flow-framework/discussions) primero
 - Explica:
   - Qué problema resuelve
   - Cómo beneficiaría a los usuarios
@@ -67,7 +67,7 @@ Hay muchas formas de contribuir al proyecto:
 
 ```bash
 # Fork el repositorio en GitHub primero
-git clone https://github.com/ljham/claude-context-framework.git
+git clone https://github.com/ljham/context-flow-framework.git
 cd claude-context-framework
 ```
 
@@ -426,8 +426,8 @@ Usualmente 2-7 días. Si es urgente (bug crítico), menciona en el PR.
 
 ## Contacto
 
-- **GitHub Issues:** https://github.com/ljham/claude-context-framework/issues
-- **GitHub Discussions:** https://github.com/ljham/claude-context-framework/discussions
+- **GitHub Issues:** https://github.com/ljham/context-flow-framework/issues
+- **GitHub Discussions:** https://github.com/ljham/context-flow-framework/discussions
 - **Email:** context-framework@example.com
 
 ---

@@ -1,21 +1,21 @@
 {
-  "name": "context-optimization-framework",
-  "displayName": "Context Optimization Framework",
+  "name": "context-flow-framework",
+  "displayName": "Context Flow Framework",
   "version": "1.3.0",
   "description": "Framework profesional de optimización de contexto con 11 subagentes especializados para desarrollo con Claude Code. Reduce consumo de tokens 80-90%",
   "author": {
-    "name": "Context Optimization Framework",
+    "name": "Luis Jama",
     "email": "luis.jham@gmail.com",
     "url": "https://github.com/ljham"
   },
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ljham/claude-context-framework"
+    "url": "https://github.com/ljham/context-flow-framework"
   },
-  "homepage": "https://github.com/ljham/claude-context-framework#readme",
+  "homepage": "https://github.com/ljham/context-flow-framework#readme",
   "bugs": {
-    "url": "https://github.com/ljham/claude-context-framework/issues"
+    "url": "https://github.com/ljham/context-flow-framework/issues"
   },
   "keywords": [
     "claude-code",
