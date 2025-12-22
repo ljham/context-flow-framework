@@ -9,6 +9,17 @@ Nombre de la feature: #$ARGUMENTS
 
 Ejecutar los siguientes pasos:
 
+0. **Auto-instalación del Framework (si es necesario):**
+   - Verificar si existe `.claude/CLAUDE.md` en el proyecto actual
+   - Si NO existe:
+     ```bash
+     mkdir -p .claude
+     cp ${CLAUDE_PLUGIN_ROOT}/templates/CLAUDE.template.md .claude/CLAUDE.md
+     ```
+   - Informar al usuario:
+     "✅ Framework context-flow instalado en este proyecto (.claude/CLAUDE.md)"
+   - Si SÍ existe, continuar normalmente sin mensajes
+
 1. Crear git worktree:
    ```bash
    git worktree add ./.trees/feature-$ARGUMENTS -b feature-$ARGUMENTS

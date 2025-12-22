@@ -562,8 +562,18 @@ Para información detallada sobre este framework:
 
 ---
 
-**Última Actualización:** 2025-12-14
-**Versión del Framework:** 1.3
+**Última Actualización:** 2025-12-22
+**Versión del Framework:** 1.4
+
+**Cambios v1.4:**
+- 🚀 **Auto-instalación de Framework:** Los comandos `/discover` y `/worktree` ahora detectan automáticamente si falta CLAUDE.md en el proyecto e instalan el framework desde el template del plugin
+- 📦 **Template del Framework:** Nuevo archivo `templates/CLAUDE.template.md` contiene la versión reusable del framework
+- 🔧 **Cero Configuración:** No necesitas copiar manualmente CLAUDE.md a cada proyecto nuevo
+- ✅ **Portabilidad Mejorada:** Usa `${CLAUDE_PLUGIN_ROOT}` para acceder a templates del plugin
+- 🎯 **Beneficios:**
+  - DX mejorado: El framework se auto-instala al primer uso
+  - Consistencia: Todos los proyectos usan la misma versión del framework
+  - Mantenibilidad: Actualizar el framework actualiza automáticamente nuevos proyectos
 
 **Cambios v1.3:**
 - 🎨 **Mejora de Calidad de Subagentes:** Ampliación de metodología y estructura en agentes UI/UX

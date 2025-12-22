@@ -7,6 +7,27 @@ y este proyecto adhiere a [Semantic Versioning](https://semver.org/lang/es/).
 
 ---
 
+## [1.4.0] - 2025-12-22
+
+### Added
+- Auto-instalación de CLAUDE.md en nuevos proyectos
+- Template del framework en `templates/CLAUDE.template.md`
+- Detección automática de framework en comandos `/discover` y `/worktree`
+- Copia automática de CLAUDE.md si no existe en el proyecto actual
+
+### Changed
+- Comandos `/discover` y `/worktree` ahora instalan automáticamente el framework
+- Mejora de portabilidad del plugin entre proyectos
+- Uso de variable `${CLAUDE_PLUGIN_ROOT}` para acceso a templates
+
+### Benefits
+- **DX mejorado**: No necesitas copiar manualmente CLAUDE.md a cada proyecto nuevo
+- **Cero configuración**: El framework se auto-instala al primer uso
+- **Consistencia**: Todos los proyectos usan la misma versión del framework
+- **Mantenibilidad**: Actualizar el framework actualiza automáticamente nuevos proyectos
+
+---
+
 ## [1.3.0] - 2025-12-14
 
 ### Added
