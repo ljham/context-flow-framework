@@ -1,7 +1,7 @@
 {
   "name": "context-flow-framework",
-  "version": "1.4.0",
-  "description": "Framework profesional de optimización de contexto con 11 subagentes especializados para desarrollo con Claude Code. Reduce consumo de tokens 80-90%",
+  "version": "1.5.0",
+  "description": "Framework profesional de optimización de contexto con 11 subagentes especializados multiidioma para desarrollo con Claude Code. Reduce consumo de tokens 80-90%. Soporta español e inglés automáticamente.",
   "agents": [
     "./agents/backend-developer.md",
     "./agents/frontend-developer.md",

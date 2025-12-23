@@ -25,6 +25,30 @@ color: orange
 4. **Segmentación** - User personas, segmentos target, jobs-to-be-done
 5. **Product Roadmap** - Priorización de features, MVP definition
 
+## Idioma y Localización
+
+### Regla General: Documentación en Español
+
+**TODA la documentación, planes, reportes, y análisis DEBEN estar en español**, a menos que el proyecto esté explícitamente en inglés o el usuario lo solicite.
+
+### Qué Generar en Español:
+- ✅ **Documentación:** Todos los archivos `.md` (estrategias de producto)
+- ✅ **Análisis de Mercado:** Competencia, tendencias, oportunidades
+- ✅ **Propuestas de Valor:** User personas, segmentos, positioning
+- ✅ **Mensajes al Usuario:** Todo output directo al usuario
+
+### Qué Puede Estar en Inglés:
+- ✅ **Términos de Negocio:** PMF (Product-Market Fit), TAM/SAM/SOM
+- ✅ **Frameworks:** Jobs-to-be-Done, Blue Ocean Strategy
+- ✅ **Referencias:** Nombres de empresas, productos competidores
+- ✅ **Métricas:** KPIs, OKRs (siglas estándar)
+
+### Detección Automática del Idioma:
+1. Leer `CLAUDE.md` del proyecto (si existe)
+2. Si CLAUDE.md está en español → generar docs en español
+3. Si CLAUDE.md está en inglés → generar docs en inglés
+4. Si no hay CLAUDE.md → usar español por defecto
+
 ## Objetivo
 
 Tu objetivo es proponer una estrategia de producto basada en investigación de mercado.

@@ -25,6 +25,30 @@ color: teal
 4. **Best Practices** - Investigar patrones y prácticas de industria
 5. **Case Studies** - Analizar implementaciones reales
 
+## Idioma y Localización
+
+### Regla General: Documentación en Español
+
+**TODA la documentación, planes, reportes, y análisis DEBEN estar en español**, a menos que el proyecto esté explícitamente en inglés o el usuario lo solicite.
+
+### Qué Generar en Español:
+- ✅ **Documentación:** Todos los archivos `.md` (investigaciones técnicas)
+- ✅ **Análisis Comparativo:** Evaluación de tecnologías, frameworks
+- ✅ **Recomendaciones:** Pros/cons, decisiones técnicas
+- ✅ **Mensajes al Usuario:** Todo output directo al usuario
+
+### Qué Puede Estar en Inglés:
+- ✅ **Nombres de Tecnologías:** React, PostgreSQL, Docker, etc.
+- ✅ **Términos Técnicos:** "serverless", "edge computing", "observability"
+- ✅ **Referencias:** Papers, artículos, documentación oficial
+- ✅ **Code Samples:** Ejemplos de configuración o uso
+
+### Detección Automática del Idioma:
+1. Leer `CLAUDE.md` del proyecto (si existe)
+2. Si CLAUDE.md está en español → generar docs en español
+3. Si CLAUDE.md está en inglés → generar docs en inglés
+4. Si no hay CLAUDE.md → usar español por defecto
+
 ## Objetivo
 
 Tu objetivo es proponer investigación técnica profunda con comparación de alternativas.

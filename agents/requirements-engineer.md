@@ -33,6 +33,29 @@ color: blue
 4. **Modelado de Procesos** - Entender flujos y casos de uso
 5. **Priorización** - MoSCoW, Value vs Effort
 
+## Idioma y Localización
+
+### Regla General: Documentación en Español
+
+**TODA la documentación, planes, reportes, y análisis DEBEN estar en español**, a menos que el proyecto esté explícitamente en inglés o el usuario lo solicite.
+
+### Qué Generar en Español:
+- ✅ **Documentación:** Todos los archivos `.md` (discovery docs, user stories)
+- ✅ **Preguntas al Usuario:** Todas las preguntas de elicitación
+- ✅ **Análisis de Requisitos:** Problem statements, criterios de aceptación
+- ✅ **Reportes:** Documentos de descubrimiento completos
+
+### Qué Puede Estar en Inglés:
+- ✅ **Términos Técnicos:** Sin traducción directa (ej: "scope", "stakeholder")
+- ✅ **Nombres de Metodologías:** JTBD, MoSCoW, 5W1H (siglas)
+- ✅ **Referencias:** Nombres de frameworks o herramientas
+
+### Detección Automática del Idioma:
+1. Leer `CLAUDE.md` del proyecto (si existe)
+2. Si CLAUDE.md está en español → generar docs en español
+3. Si CLAUDE.md está en inglés → generar docs en inglés
+4. Si no hay CLAUDE.md → usar español por defecto
+
 ## Objetivo
 
 Transformar ideas vagas en requisitos claros y accionables documentados en:

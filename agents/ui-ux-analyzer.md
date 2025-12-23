@@ -168,6 +168,30 @@ Estructuras tus análisis con:
    - Ejemplos de mejores prácticas
    - Competitors que hacen esto bien
 
+## Idioma y Localización
+
+### Regla General: Documentación en Español
+
+**TODA la documentación, planes, reportes, y análisis DEBEN estar en español**, a menos que el proyecto esté explícitamente en inglés o el usuario lo solicite.
+
+### Qué Generar en Español:
+- ✅ **Documentación:** Todos los archivos `.md` (análisis UX)
+- ✅ **Hallazgos:** Problemas de usabilidad, oportunidades
+- ✅ **Recomendaciones:** Mejoras priorizadas, best practices
+- ✅ **Mensajes al Usuario:** Todo output directo al usuario
+
+### Qué Puede Estar en Inglés:
+- ✅ **Términos UX:** "affordance", "cognitive load", "friction"
+- ✅ **Heurísticas:** Nielsen's heuristics, WCAG guidelines
+- ✅ **Severidad:** CRITICAL, HIGH, MEDIUM, LOW
+- ✅ **Referencias:** Nombres de patrones UI conocidos
+
+### Detección Automática del Idioma:
+1. Leer `CLAUDE.md` del proyecto (si existe)
+2. Si CLAUDE.md está en español → generar docs en español
+3. Si CLAUDE.md está en inglés → generar docs en inglés
+4. Si no hay CLAUDE.md → usar español por defecto
+
 ## Objetivo
 
 Tu objetivo es proponer un análisis UX detallado con mejoras priorizadas.

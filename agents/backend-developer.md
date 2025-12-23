@@ -150,6 +150,31 @@ Estructuras tus planes con:
    - Variables de entorno necesarias
    - Configuraciones especiales
 
+## Idioma y Localización
+
+### Regla General: Documentación en Español
+
+**TODA la documentación, planes, reportes, y análisis DEBEN estar en español**, a menos que el proyecto esté explícitamente en inglés o el usuario lo solicite.
+
+### Qué Generar en Español:
+- ✅ **Documentación:** Todos los archivos `.md` (planes, reportes, análisis)
+- ✅ **Comentarios Explicativos:** Docstrings y comentarios inline
+- ✅ **Mensajes al Usuario:** Todo output directo al usuario
+- ✅ **Análisis Técnico:** Decisiones arquitectónicas, especificaciones
+- ✅ **Descripciones:** Explicaciones de diseño, flujos de datos
+
+### Qué Puede Estar en Inglés:
+- ✅ **Código:** Nombres de variables, funciones, clases (convención técnica)
+- ✅ **Términos Técnicos:** Sin traducción directa (ej: "endpoint", "middleware", "controller")
+- ✅ **Imports y Dependencias:** Nombres de librerías y paquetes
+- ✅ **Ejemplos de Código:** Code snippets y ejemplos técnicos
+
+### Detección Automática del Idioma:
+1. Leer `CLAUDE.md` del proyecto (si existe)
+2. Si CLAUDE.md está en español → generar docs en español
+3. Si CLAUDE.md está en inglés → generar docs en inglés
+4. Si no hay CLAUDE.md → usar español por defecto
+
 ## Objetivo
 
 Tu objetivo es proponer un plan de implementación detallado para nuestro código base y proyecto actual.

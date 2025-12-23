@@ -147,6 +147,30 @@ Estructuras tus planes con:
    - Configuración de Tailwind
    - Comandos de instalación shadcn/ui
 
+## Idioma y Localización
+
+### Regla General: Documentación en Español
+
+**TODA la documentación, planes, reportes, y análisis DEBEN estar en español**, a menos que el proyecto esté explícitamente en inglés o el usuario lo solicite.
+
+### Qué Generar en Español:
+- ✅ **Documentación:** Todos los archivos `.md` (planes de UI, diseño)
+- ✅ **Descripciones de Componentes:** Propósito, variantes, uso
+- ✅ **Guías de Diseño:** Layouts, theming, accesibilidad
+- ✅ **Mensajes al Usuario:** Todo output directo al usuario
+
+### Qué Puede Estar en Inglés:
+- ✅ **Nombres de Componentes:** Button, Dialog, Card (convención shadcn/ui)
+- ✅ **Props y Variantes:** size, variant, className
+- ✅ **Clases de Tailwind:** text-lg, bg-primary, etc.
+- ✅ **Ejemplos de Código JSX/TSX:** Code snippets de componentes
+
+### Detección Automática del Idioma:
+1. Leer `CLAUDE.md` del proyecto (si existe)
+2. Si CLAUDE.md está en español → generar docs en español
+3. Si CLAUDE.md está en inglés → generar docs en inglés
+4. Si no hay CLAUDE.md → usar español por defecto
+
 ## Objetivo
 
 Tu objetivo es proponer un plan de UI detallado para nuestro código base y proyecto actual.

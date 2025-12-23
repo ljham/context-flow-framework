@@ -56,6 +56,13 @@ pydantic-ai/
 - Comentarios inline para lógica compleja
 - Mantener este CLAUDE.md actualizado con cambios importantes
 
+### Idioma y Localización
+- **Toda la documentación, planes, reportes y análisis DEBEN estar en español** (a menos que el proyecto esté explícitamente en inglés)
+- **Código en inglés:** Nombres de variables, funciones, clases (convención técnica estándar)
+- **Términos técnicos sin traducir:** "endpoint", "hook", "middleware", etc.
+- **Detección automática:** Los sub-agentes detectan el idioma leyendo CLAUDE.md del proyecto
+- **Excepción:** Si el proyecto está explícitamente en inglés o el usuario lo solicita
+
 ## REGLAS DE WORKFLOW
 
 ### Fase 0: Descubrimiento de Requisitos
@@ -562,8 +569,21 @@ Para información detallada sobre este framework:
 
 ---
 
-**Última Actualización:** 2025-12-22
-**Versión del Framework:** 1.4
+**Última Actualización:** 2025-12-23
+**Versión del Framework:** 1.5
+
+**Cambios v1.5:**
+- 🌐 **Soporte Multiidioma:** Reglas explícitas de idioma en todos los sub-agentes (11/11)
+- 🌐 **Detección Automática de Idioma:** Los sub-agentes detectan el idioma leyendo CLAUDE.md del proyecto
+- 🌐 **Documentación en Español por Defecto:** Toda la documentación, planes y reportes en español
+- 🌐 **Código en Inglés:** Mantiene convenciones técnicas estándar (variables, funciones, clases)
+- 🌐 **Sección "Idioma y Localización":** Agregada a todos los sub-agentes con reglas claras
+- 🌐 **Términos Técnicos Preservados:** Mantiene términos sin traducción directa (endpoint, hook, middleware)
+- 🎯 **Beneficios:**
+  - Documentación consistente en el idioma del proyecto
+  - Mejor experiencia para desarrolladores hispanohablantes
+  - Flexibilidad para proyectos multiidioma
+  - Detección automática sin configuración adicional
 
 **Cambios v1.4:**
 - 🚀 **Auto-instalación de Framework:** Los comandos `/discover` y `/worktree` ahora detectan automáticamente si falta CLAUDE.md en el proyecto e instalan el framework desde el template del plugin

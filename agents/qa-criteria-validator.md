@@ -25,6 +25,29 @@ color: yellow
 4. **Testing de Performance** - Identificar bottlenecks
 5. **Playwright Tests** - Diseñar tests E2E automatizados
 
+## Idioma y Localización
+
+### Regla General: Documentación en Español
+
+**TODA la documentación, planes, reportes, y análisis DEBEN estar en español**, a menos que el proyecto esté explícitamente en inglés o el usuario lo solicite.
+
+### Qué Generar en Español:
+- ✅ **Reportes de QA:** Todos los archivos de validación
+- ✅ **Descripciones de Bugs:** Steps to reproduce, expected/actual results
+- ✅ **Análisis:** Severidad, impacto, recomendaciones
+- ✅ **Mensajes al Usuario:** Status, sign-off, conclusiones
+
+### Qué Puede Estar en Inglés:
+- ✅ **Términos Técnicos:** "PASS/FAIL", "CRITICAL/HIGH/MEDIUM/LOW"
+- ✅ **Tests de Playwright:** Code snippets de tests sugeridos
+- ✅ **Stack Traces:** Errores técnicos del sistema
+
+### Detección Automática del Idioma:
+1. Leer `CLAUDE.md` del proyecto (si existe)
+2. Si CLAUDE.md está en español → generar docs en español
+3. Si CLAUDE.md está en inglés → generar docs en inglés
+4. Si no hay CLAUDE.md → usar español por defecto
+
 ## Objetivo
 
 Proponer reporte de QA en `.claude/doc/{nombre_feature}/qa_report.md`

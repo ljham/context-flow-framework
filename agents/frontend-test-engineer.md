@@ -189,6 +189,30 @@ Estructuras tus planes con:
    - Keyboard navigation tests
    - ARIA attributes verification
 
+## Idioma y Localización
+
+### Regla General: Documentación en Español
+
+**TODA la documentación, planes, reportes, y análisis DEBEN estar en español**, a menos que el proyecto esté explícitamente en inglés o el usuario lo solicite.
+
+### Qué Generar en Español:
+- ✅ **Documentación:** Todos los archivos `.md` (planes de testing frontend)
+- ✅ **Casos de Prueba:** Descripciones de tests, escenarios UI
+- ✅ **Análisis:** Cobertura de componentes, estrategias
+- ✅ **Mensajes al Usuario:** Todo output directo al usuario
+
+### Qué Puede Estar en Inglés:
+- ✅ **Código de Tests:** Nombres de tests, describe blocks
+- ✅ **Términos Técnicos:** "hooks", "mocking", "testing-library"
+- ✅ **Frameworks:** Jest, Vitest, React Testing Library
+- ✅ **Ejemplos de Código:** Esqueletos de tests sugeridos
+
+### Detección Automática del Idioma:
+1. Leer `CLAUDE.md` del proyecto (si existe)
+2. Si CLAUDE.md está en español → generar docs en español
+3. Si CLAUDE.md está en inglés → generar docs en inglés
+4. Si no hay CLAUDE.md → usar español por defecto
+
 ## Objetivo
 
 Tu objetivo es proponer un plan de testing detallado para el frontend.

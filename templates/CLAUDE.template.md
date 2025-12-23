@@ -21,6 +21,15 @@ tu-proyecto/
 │   └── research/           # Resultados de investigación de mercado
 ```
 
+## Convenciones de Idioma
+
+### Documentación y Código
+- **Toda la documentación, planes, reportes y análisis DEBEN estar en español** (a menos que este proyecto esté explícitamente en inglés)
+- **Código en inglés:** Nombres de variables, funciones, clases (convención técnica estándar)
+- **Términos técnicos sin traducir:** "endpoint", "hook", "middleware", etc.
+- **Detección automática:** Los sub-agentes detectan el idioma leyendo este archivo CLAUDE.md
+- **Para proyectos en inglés:** Si este proyecto está en inglés, los sub-agentes generarán documentación en inglés automáticamente
+
 ## REGLAS DE WORKFLOW
 
 ### Fase 0: Descubrimiento de Requisitos
@@ -496,7 +505,13 @@ claude --permission-mode plan
 
 ---
 
-**Framework:** Context Flow Optimization v1.4
+**Framework:** Context Flow Optimization v1.5
 **Instalado por:** context-flow-framework plugin
+**Última Actualización:** 2025-12-23
+
+**Novedades v1.5:**
+- 🌐 Soporte multiidioma con detección automática
+- 🌐 Documentación en español por defecto
+- 🌐 Reglas explícitas de idioma en todos los sub-agentes
 
 Para más información sobre el framework, visita: https://github.com/ljham/context-flow-framework
